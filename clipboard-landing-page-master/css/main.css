@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+header {
+  background-image: url(../images/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  background-size: 35em;
+}
+
+.container {
+  width: 35em;
+  margin: 0 auto;
+}
+
+.logo1 {
+  margin-top: 5em;
+  margin-left: 14em;
+  margin-bottom: 4em;
+}
+
+.title h1 {
+  margin: 0 3em;
+  text-align: center;
+}
+
+.title p {
+  margin: 2em 4.2em;
+  text-align: center;
+  color: gray;
+  line-height: 2em;
+}
+
+.download-btn {
+  display: flex;
+  flex-direction: column;
+  margin-left: 7em;
+  gap: 1em;
+}
+
+.ios {
+  width: 25em;
+  height: 4em;
+  border-radius: 3em;
+  border-style: none;
+  color: white;
+  background-color: #26b194;
+  font-weight: 700;
+}
+
+.mac {
+  width: 25em;
+  height: 4em;
+  border-radius: 3em;
+  border-style: none;
+  color: white;
+  background-color: #4e58ff;
+  font-weight: 700;
+}
+
+.middle {
+  margin: 10em 3em 0em 4em;
+  text-align: center;
+}
+
+.middle h1 {
+  margin-bottom: 0.5em;
+}
+
+.middle p {
+  color: gray;
+  margin-bottom: 3em;
+}
+
+.maci {
+  width: 20em;
+  margin-left: 7em;
+}
+
+.traits {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.traits p {
+  color: gray;
+}
+
+.trait {
+  margin: 0 7em;
+  margin-bottom: 3em;
+}
+
+h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5em;
+}
+
+.devicei {
+  width: 23em;
+  margin-left: 5em;
+}
+
+.middle2 {
+  margin: 2em 4em 0 4em;
+  text-align: center;
+}
+
+.middle2 h1 {
+  margin-bottom: 0.5em;
+}
+
+.middle2 p {
+  color: gray;
+}
+
+.good {
+  margin: 5em 3em 0;
+  text-align: center;
+}
+
+.item {
+  margin: 0 3em;
+  margin-bottom: 2em;
+}
+
+.item img {
+  margin-bottom: 2em;
+}
+
+.item h4 {
+  margin-bottom: 1.5em;
+  font-size: 1.8rem;
+}
+
+.item p {
+  color: gray;
+}
+
+.brand img {
+  width: 10em;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  align-items: center;
+  margin-top: 6em;
+}
+
+.middle3 {
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+footer {
+  background-color: #f3f4f7;
+  height: 25em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  margin-top: 10em;
+}
+
+.textt {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.logo2 {
+  width: 3em;
+  margin-top: 3em;
+  margin-left: 16em;
+}
+
+.faq {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.privacy {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.install {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.social {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: auto;
+    max-width: 900px;
+  }
+
+  header {
+    background-image: url(../images/bg-header-desktop.png);
+    background-size: auto;
+  }
+
+  .maci {
+    width: 40em;
+    height: 30em;
+    margin-left: -17em;
+  }
+
+  .logo1 {
+    margin-left: 25em;
+  }
+
+  .download-btn {
+    flex-direction: row;
+  }
+
+  .middle {
+    margin-left: 8em;
+    margin-right: 8em;
+  }
+
+  .macimg {
+    display: flex;
+  }
+
+  .traits {
+    margin-top: 2em;
+  }
+
+  .devicei {
+    width: 40em;
+    margin-left: 7em;
+  }
+
+  .good {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .item p {
+    margin-top: -2em;
+  }
+
+  .brand {
+    flex-direction: row;
+    gap: 4em;
+    margin-left: -2em;
+  }
+
+  footer {
+    width: 1500px;
+    margin-left: -20em;
+    height: 10em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo2 {
+    width: 3em;
+    height: 3em;
+    margin-bottom: 3em;
+  }
+
+  .textt {
+    display: flex;
+    flex-direction: row;
+    margin-left: -40em;
+    text-align: start;
+  }
+
+  .social {
+    margin-right: 8em;
+    margin-left: -20em;
+  }
+
+  .social img {
+    height: 2em;
+    width: 2em;
+  }
+}
+
+.mac:hover {
+  cursor: pointer;
+  color: #757fff;
+}
+
+.ios:hover {
+  cursor: pointer;
+  background-color: #50c4ad;
+}
+
+.textt p:hover {
+  cursor: pointer;
+  color: #50c4ad;
+}
+
+.social img:hover {
+  cursor: pointer;
+  filter: invert(80%) sepia(8%) saturate(2390%) hue-rotate(117deg)
+    brightness(84%) contrast(90%);
+}
